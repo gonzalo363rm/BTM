@@ -1,0 +1,13 @@
+# https://github.com/RodAli/Topic-Modeling-Comparative-Analysis/blob/main/Rod-Mazloomi-Final.ipynb
+
+1_ Ejecutar el comando 'myenv/Scripts/activate' desde una powershell, para utilizar el entorno con todo instalado.
+2_ Ejecutar el modelo con el comando 'python BTM.py'.
+
+# BTM_cv se utilizo para encontrar los mejores parametros mediante cross validation
+
+Mejores parámetros encontrados en base a la coherence:
+{'T': 30, 'M': 10, 'alpha': 0.05, 'beta': 0.5, 'iterations': 25}
+
+Resultados para estos parametros:
+coherence =>  -55.93890790658371
+perplexity =>  3569.648315926864 => La perplexity de BTM se calcula de forma diferente a como se hace en LDA y BERTopic, por lo que no se comparara junto a estos por medio de esta metrica.
